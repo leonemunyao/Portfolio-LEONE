@@ -30,6 +30,10 @@ body{
     font-weight: 500;
 }
 
+.navbar{
+    background: transparent;
+}
+
 .navbar a{
     display: inline-block;
     font-size: 25px;
@@ -38,4 +42,21 @@ body{
     font-weight: 500;
     margin-left: 35px;
     transition: .3s;
+}
+
+.navbar a:hover{
+    color: rgb(72, 72, 207);
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(Images/_.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
 }
