@@ -71,3 +71,15 @@ header{
     font-weight: 700;
     margin: -3px ;
 }
+
+.home-socials a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(7, 189, 234);
+    border-radius: 50%;
+    
+}
