@@ -6,7 +6,7 @@
 }
 
 body{
-    color: aliceblue;
+    color: white;
 }
 
 header{
@@ -25,7 +25,7 @@ header{
 .logo{
     position: relative;
     font-size: 25px;
-    color: #fff;
+    color:white;
     text-decoration: none;
     font-weight: 500;
 }
@@ -33,7 +33,7 @@ header{
 .navbar a{
     display: inline-block;
     font-size: 25px;
-    color: #fff;
+    color: white;
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
@@ -81,5 +81,13 @@ header{
     background: transparent;
     border: 2px solid rgb(7, 189, 234);
     border-radius: 50%;
-    
+    font-size: 20px;
+    color: rgb(7, 189, 234);
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+
+.home-socials a:hover{
+    background: rgb(7, 189, 234);
+    color: black;
 }
