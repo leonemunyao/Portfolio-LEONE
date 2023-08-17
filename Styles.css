@@ -15,7 +15,7 @@ header{
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: black;
+    background: rgb(47, 58, 59);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,7 +52,8 @@ header{
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(Images/1.jpeg) no-repeat;
+    /* background: url(Images/1.jpeg) no-repeat; */
+    background: black;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -77,7 +78,7 @@ header{
 }
 
 .home-content h1{
-    font-size: 56px;
+    font-size: 50gpx;
     font-weight: 700;
     margin: -3px ;
 }
