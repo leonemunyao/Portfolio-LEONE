@@ -41,6 +41,8 @@ header{
     font-weight: 500;
     margin-left: 35px;
     transition: .3s;
+    opacity: 1;
+    animation: slideTop .5s ease forwards;
 }
 
 .navbar a:hover{
@@ -78,7 +80,7 @@ header{
 }
 
 .home-content h1{
-    font-size: 50gpx;
+    font-size: 50px;
     font-weight: 700;
     margin: -3px ;
 }
@@ -101,4 +103,26 @@ header{
 .home-socials a:hover{
     background: rgb(7, 189, 234);
     color: black;
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
